@@ -1,4 +1,4 @@
-26636395082466537
+26638179915806268
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59324,6 +59324,13 @@ ceramic
 0
 3
 3
+Custom
+HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.4x4.75mm_Mask2.4x2.98mm
+HTSSOP, 24 Pin (Texas Instruments PWP0024P, based on JEDEC MO-153 variation ADT, 1.00mm body thickness, https://www.ti.com/lit/ml/pptd064i/pptd064i.pdf, https://web.archive.org/web/20170223145154/http://www.ti.com/lit/ds/symlink/tlc5949.pdf#page=49, https://www.jedec.org/document_search?search_api_views_fulltext=MO-153), generated with kicad-footprint-generator ipc_gullwing_generator.py
+HTSSOP SO Texas_PWP0024P Texas_PowerPAD
+0
+30
+25
 Custom
 Untitled
 
