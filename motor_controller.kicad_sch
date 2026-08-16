@@ -2389,6 +2389,12 @@
 		(uuid "0f238937-6769-4a4d-8fa7-a14a7b95689a")
 	)
 	(junction
+		(at 100.33 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10a10c92-78ef-4795-ae3d-664ea1231128")
+	)
+	(junction
 		(at 198.12 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2411,18 +2417,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f37614b-5499-4311-8996-795cf3fbe37a")
-	)
-	(junction
-		(at 64.77 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ee379dd-cadf-4986-98d5-8202b24d5d66")
-	)
-	(junction
-		(at 71.12 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d4c8fb9-0624-45ef-8980-20ea78b3a52a")
 	)
 	(junction
 		(at 227.33 64.77)
@@ -2455,10 +2449,10 @@
 		(uuid "b493cc16-ba43-49a7-868e-bbc8c1044f7e")
 	)
 	(junction
-		(at 100.33 69.85)
+		(at 74.93 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfec11b8-082f-48a6-b8c8-a71c8fb5a755")
+		(uuid "b96559eb-98f7-420e-949a-642fda463f46")
 	)
 	(junction
 		(at 198.12 116.84)
@@ -2497,6 +2491,10 @@
 		(uuid "f0c1fe13-1722-4ccb-8963-5e3b4547d499")
 	)
 	(no_connect
+		(at 109.22 97.79)
+		(uuid "78a6e316-7a51-4156-a977-d8e5ea178480")
+	)
+	(no_connect
 		(at 154.94 129.54)
 		(uuid "c0e53caa-18f8-42d7-b991-222ea9f8b0cd")
 	)
@@ -2532,16 +2530,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 97.79) (xy 109.22 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07778c01-7c36-4b23-a515-e906d197e4a9")
-	)
-	(wire
-		(pts
 			(xy 95.25 129.54) (xy 95.25 130.81)
 		)
 		(stroke
@@ -2549,16 +2537,6 @@
 			(type default)
 		)
 		(uuid "09066a95-e823-413b-a75c-2b7594944940")
-	)
-	(wire
-		(pts
-			(xy 64.77 82.55) (xy 50.8 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a28225-1ac0-4b47-a225-ba465178981e")
 	)
 	(wire
 		(pts
@@ -2622,6 +2600,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 77.47) (xy 74.93 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160bb810-5625-4878-82df-39d1a499a63a")
+	)
+	(wire
+		(pts
 			(xy 198.12 74.93) (xy 198.12 87.63)
 		)
 		(stroke
@@ -2662,6 +2650,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 77.47) (xy 80.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24aa0477-3545-4776-a628-8f8fe5fb74ae")
+	)
+	(wire
+		(pts
 			(xy 214.63 101.6) (xy 214.63 106.68)
 		)
 		(stroke
@@ -2699,16 +2697,6 @@
 			(type default)
 		)
 		(uuid "2d028ebf-0a97-4a00-8104-60bf6caf0599")
-	)
-	(wire
-		(pts
-			(xy 50.8 85.09) (xy 54.61 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d0c4787-27c5-42a0-beac-317bf9a8e5c9")
 	)
 	(wire
 		(pts
@@ -2762,6 +2750,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 77.47) (xy 74.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ce0be1-5da0-4df8-9fa4-e46683c2f377")
+	)
+	(wire
+		(pts
 			(xy 234.95 59.69) (xy 234.95 64.77)
 		)
 		(stroke
@@ -2782,36 +2780,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 83.82) (xy 71.12 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47395614-1d0a-4b9c-b01f-ad867813fd55")
-	)
-	(wire
-		(pts
-			(xy 54.61 85.09) (xy 54.61 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48919caf-f50d-4e8c-90ce-a382ce88f3f1")
-	)
-	(wire
-		(pts
-			(xy 64.77 91.44) (xy 64.77 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4898c31b-4e61-47e3-9083-cf7349ca468e")
-	)
-	(wire
-		(pts
 			(xy 135.89 50.8) (xy 134.62 50.8)
 		)
 		(stroke
@@ -2829,16 +2797,6 @@
 			(type default)
 		)
 		(uuid "510fa3cc-b348-4004-a6d4-e0d03bb39033")
-	)
-	(wire
-		(pts
-			(xy 64.77 82.55) (xy 64.77 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55272e07-5ece-4b87-9ad2-e2937ff7290c")
 	)
 	(wire
 		(pts
@@ -2932,6 +2890,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 85.09) (xy 74.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740e6837-8b27-4797-a4ca-52083fab96c1")
+	)
+	(wire
+		(pts
 			(xy 100.33 69.85) (xy 109.22 69.85)
 		)
 		(stroke
@@ -2939,6 +2907,16 @@
 			(type default)
 		)
 		(uuid "7474d552-2557-42de-bafe-7f2c18ebee5f")
+	)
+	(wire
+		(pts
+			(xy 95.25 69.85) (xy 100.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778512e5-de08-4bfe-af7b-f63752f40c96")
 	)
 	(wire
 		(pts
@@ -2972,36 +2950,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 80.01) (xy 50.8 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8067588e-fb10-4454-8589-8ed42f67d81f")
-	)
-	(wire
-		(pts
-			(xy 71.12 88.9) (xy 71.12 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81281708-a68f-4e64-9385-56101cedd43e")
-	)
-	(wire
-		(pts
-			(xy 95.25 69.85) (xy 100.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "823c5fa6-8d0b-44fd-ac5c-8e000d037c43")
-	)
-	(wire
-		(pts
 			(xy 180.34 101.6) (xy 180.34 106.68)
 		)
 		(stroke
@@ -3029,16 +2977,6 @@
 			(type default)
 		)
 		(uuid "88d3b8ec-e302-427b-90a7-301c5892d461")
-	)
-	(wire
-		(pts
-			(xy 76.2 82.55) (xy 64.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8abd2a31-4f8b-4282-b1fe-d06ea40c7a3e")
 	)
 	(wire
 		(pts
@@ -3212,16 +3150,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 80.01) (xy 71.12 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b34ecd1a-64cf-4a58-a802-88550c629c0c")
-	)
-	(wire
-		(pts
 			(xy 214.63 90.17) (xy 214.63 91.44)
 		)
 		(stroke
@@ -3312,16 +3240,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 96.52) (xy 91.44 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d12bb71f-cb6e-46d5-8759-344b36b1921d")
-	)
-	(wire
-		(pts
 			(xy 154.94 69.85) (xy 163.83 69.85)
 		)
 		(stroke
@@ -3329,16 +3247,6 @@
 			(type default)
 		)
 		(uuid "d29161d5-9fff-4ea2-985c-39b3f9306040")
-	)
-	(wire
-		(pts
-			(xy 91.44 90.17) (xy 91.44 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d466dee5-d867-4576-a82a-c4391fd1ed1a")
 	)
 	(wire
 		(pts
@@ -3460,19 +3368,19 @@
 		)
 		(uuid "fe5fe382-9dcd-4c84-ac8d-3988a19b2888")
 	)
-	(global_label "PWM_in"
+	(global_label "FG"
 		(shape input)
-		(at 50.8 77.47 0)
+		(at 95.25 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2e0b92f2-2042-43ea-8ccd-56452745848d")
+		(uuid "044425f0-945e-44e3-990d-00a531de5c09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.6794 77.47 0)
+			(at 89.9062 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,7 +3388,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3508,9 +3416,9 @@
 			)
 		)
 	)
-	(global_label "DIR"
+	(global_label "PWM_in"
 		(shape input)
-		(at 78.74 80.01 0)
+		(at 67.31 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3518,9 +3426,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9d6a3e99-9849-4c00-b7d2-8d1bf2cfa080")
+		(uuid "59b6cb94-b1a6-4eab-9cee-93f024a74f88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.87 80.01 0)
+			(at 77.1894 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3532,19 +3440,19 @@
 			)
 		)
 	)
-	(global_label "BRAKE"
+	(global_label "FG"
 		(shape input)
-		(at 109.22 85.09 180)
+		(at 67.31 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "d9cdcb72-a77b-4850-b0ad-087e36e7fcbd")
+		(uuid "79298fb3-e88e-4412-83d2-495159a0c73b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.1872 85.09 0)
+			(at 72.6538 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,7 +3460,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DIR"
+		(shape input)
+		(at 80.01 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d1e1d3f-373c-4d80-a5c3-24d5011f56a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.14 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -3577,30 +3509,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "BRAKE"
-		(shape input)
-		(at 76.2 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e71812d9-e4e2-4913-a94d-abc24b3a3054")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.2328 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -4089,92 +3997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 45.72 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13cacbbc-1f48-452a-8b57-3cd5b50a67a4")
-		(property "Reference" "J5"
-			(at 46.355 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "To RPico"
-			(at 46.355 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 45.72 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 45.72 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2016bedf-d9e6-4ef0-804d-3045c4e6aaed")
-		)
-		(pin "2"
-			(uuid "05a65094-70e2-4ea4-baad-0643dd8df0c7")
-		)
-		(pin "3"
-			(uuid "7bbb1b16-6ff0-4c97-b510-299725595b28")
-		)
-		(pin "4"
-			(uuid "8569eafd-256f-4a2e-bc6a-654d434804b0")
-		)
-		(instances
-			(project "motor_controller"
-				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
 		(at 177.8 96.52 0)
 		(unit 1)
@@ -4346,84 +4168,6 @@
 			(project "motor_controller"
 				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 91.44 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22563b9a-003d-4baf-b0b6-d810c750506a")
-		(property "Reference" "#PWR010"
-			(at 91.44 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 91.44 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 91.44 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c9133ac-2438-4bae-8540-e051effb925b")
-		)
-		(instances
-			(project "motor_controller"
-				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4753,6 +4497,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 74.93 87.63 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c86e605-0e03-4f2c-bb1c-099963f34520")
+		(property "Reference" "#PWR023"
+			(at 74.93 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f624a122-83d5-4ebd-9c5b-24100f040aff")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 166.37 69.85 90)
 		(unit 1)
@@ -4829,6 +4653,88 @@
 			(project "motor_controller"
 				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 74.93 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e486c2e-b749-4d06-929d-79a7eb899d37")
+		(property "Reference" "R8"
+			(at 76.708 82.296 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 77.47 83.8199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 74.93 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 74.93 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02f8f76b-1f58-4adb-9a23-7475bab37a3d")
+		)
+		(pin "2"
+			(uuid "3c90bd89-97b3-4a8c-bc8e-cc7546bdaad4")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5645,8 +5551,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 91.44 93.98 0)
+		(lib_id "power:GND")
+		(at 109.22 85.09 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5654,20 +5561,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "83cbdf93-0913-4843-913f-9c11964d7c06")
-		(property "Reference" "R5"
-			(at 93.218 93.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 93.98 95.2499 0)
+		(fields_autoplaced yes)
+		(uuid "7ff16e06-9c8f-4227-965b-0ba3d36bf7e3")
+		(property "Reference" "#PWR022"
+			(at 109.22 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5675,11 +5572,21 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 91.44 93.98 0)
+		(property "Value" "GND"
+			(at 109.22 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5690,7 +5597,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 93.98 0)
+			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5700,8 +5607,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 91.44 93.98 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5712,15 +5619,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c6e1888d-19b2-4ba9-bb57-244e119fea70")
-		)
-		(pin "2"
-			(uuid "caa2933b-9c8f-41e0-bd62-ac32afb8ab96")
+			(uuid "faeaea6d-fc2e-4e8e-b0ea-54039ce4c24a")
 		)
 		(instances
 			(project "motor_controller"
 				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
-					(reference "R5")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5878,6 +5782,92 @@
 			(project "motor_controller"
 				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 62.23 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f95d482-8925-404d-8ea5-ca5edbb4e452")
+		(property "Reference" "J3"
+			(at 62.865 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 62.865 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8dfad6c-19bb-4283-aafb-d0fa3b31ec0b")
+		)
+		(pin "4"
+			(uuid "7e9a51e0-4df9-4e4e-bf56-d2f0d082769c")
+		)
+		(pin "1"
+			(uuid "6c691d33-3eaf-4b5f-9ead-70c5ff840a17")
+		)
+		(pin "3"
+			(uuid "65ee676a-39ae-4ba2-a63d-74dc73a3518e")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6047,85 +6037,6 @@
 			(project "motor_controller"
 				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 86.36 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1314af9-db37-4654-8d45-224631f49499")
-		(property "Reference" "#PWR011"
-			(at 54.61 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "063f2ca1-97cc-47a5-8346-95ca01e2bda5")
-		)
-		(instances
-			(project "motor_controller"
-				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6541,88 +6452,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 71.12 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bf749b55-8d23-486b-a071-73d2bee9ce05")
-		(property "Reference" "R8"
-			(at 72.898 86.106 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 73.66 87.6299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 71.12 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 71.12 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "976d1f9f-4015-4a55-830d-567f76b17504")
-		)
-		(pin "2"
-			(uuid "09d6b9bb-98c8-4370-bf22-d9482df4ee14")
-		)
-		(instances
-			(project "motor_controller"
-				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom:A5932")
 		(at 132.08 83.82 0)
 		(unit 1)
@@ -6848,84 +6677,6 @@
 			(project "motor_controller"
 				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 71.12 93.98 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c3118e6f-7037-49c6-b168-c089b64e959d")
-		(property "Reference" "#PWR018"
-			(at 71.12 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VREF"
-			(at 71.12 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 71.12 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "daeeb1d8-3bd3-4e39-b518-4d114f326fc1")
-		)
-		(instances
-			(project "motor_controller"
-				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7247,6 +6998,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 82.55 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3d04645-968a-4f31-8b39-2146f629e06a")
+		(property "Reference" "#PWR021"
+			(at 67.31 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "534e8e5b-f64a-4e53-8f59-eb19e1e2f108")
+		)
+		(instances
+			(project "motor_controller"
+				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 102.87 115.57 90)
 		(unit 1)
@@ -7330,88 +7161,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 64.77 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee19f8d1-7346-4f67-bad9-d07026a61a68")
-		(property "Reference" "R7"
-			(at 66.548 88.646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 67.31 90.1699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 64.77 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 64.77 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "793c68b7-cd7d-49b9-8f13-43d2dd07a8de")
-		)
-		(pin "2"
-			(uuid "b6046958-58ca-46c1-b9e8-8ce3bb14ef7f")
-		)
-		(instances
-			(project "motor_controller"
-				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 161.29 123.19 90)
 		(unit 1)
 		(body_style 1)
@@ -7487,85 +7236,6 @@
 			(project "motor_controller"
 				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 93.98 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fb0eebec-474d-43e9-b258-3981ecb601c8")
-		(property "Reference" "#PWR014"
-			(at 64.77 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5c69b0f-d21a-4737-a391-a0f622a28b22")
-		)
-		(instances
-			(project "motor_controller"
-				(path "/be9826e1-4220-47d5-9f24-2299ce8144d5"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
